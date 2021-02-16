@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="camBosaltButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;metalButton.Name" xml:space="preserve">
+    <value>metalButton</value>
+  </data>
+  <data name="&gt;&gt;camListBox.Name" xml:space="preserve">
+    <value>camListBox</value>
+  </data>
+  <data name="&gt;&gt;metalListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picturePanel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resimPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 46</value>
+  </data>
+  <data name="&gt;&gt;metalListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="camListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 376</value>
+  </data>
+  <data name="kagıtButton.Text" xml:space="preserve">
+    <value>KAĞIT</value>
+  </data>
+  <data name="yeniOyunButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;kagıtPanel.Name" xml:space="preserve">
+    <value>kagıtPanel</value>
+  </data>
+  <data name="&gt;&gt;metalButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="puanTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 233</value>
+  </data>
+  <data name="metalBosaltButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="kagıtPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="kagıtButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 3</value>
+  </data>
+  <data name="&gt;&gt;metalPanel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;kagitProgress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cıkısButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="puanLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 34</value>
+  </data>
+  <data name="puanTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;camBosaltButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;kagıtPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kagıtListBox.Name" xml:space="preserve">
+    <value>kagıtListBox</value>
+  </data>
+  <data name="&gt;&gt;kagıtBosaltButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kagıtButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sureTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;kagıtBosaltButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camListBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="metalListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 160</value>
+  </data>
+  <data name="kagıtBosaltButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 285</value>
+  </data>
+  <data name="&gt;&gt;puanTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metalProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;metalProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picturePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;puanLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;metalBosaltButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="kagitProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="kagıtListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 90</value>
+  </data>
+  <data name="puanTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 26.25pt, style=Bold</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="sureTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 26.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;sureTextBox.Name" xml:space="preserve">
+    <value>sureTextBox</value>
+  </data>
+  <data name="resimPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 204</value>
+  </data>
+  <data name="sureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 34</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="metalBosaltButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 571</value>
+  </data>
+  <data name="camBosaltButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 571</value>
+  </data>
+  <data name="sureTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 47</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="puanTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="metalButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;kagıtListBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;metalProgress.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="organikAtikButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;picturePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metalProgress.Name" xml:space="preserve">
+    <value>metalProgress</value>
+  </data>
+  <data name="&gt;&gt;picturePanel.Name" xml:space="preserve">
+    <value>picturePanel</value>
+  </data>
+  <data name="sureTextBox.Text" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 285</value>
+  </data>
+  <data name="&gt;&gt;organikAtikButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;organikAtikButton.Name" xml:space="preserve">
+    <value>organikAtikButton</value>
+  </data>
+  <data name="organikListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="organikListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 160</value>
+  </data>
+  <data name="puanLabel.Text" xml:space="preserve">
+    <value>PUAN</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="camProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 542</value>
+  </data>
+  <data name="kagıtBosaltButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cıkısButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;picturePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;puanLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;yeniOyunButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sureLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kagıtPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 59</value>
+  </data>
+  <data name="yeniOyunButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="&gt;&gt;kagıtButton.Parent" xml:space="preserve">
+    <value>kagıtPanel</value>
+  </data>
+  <data name="kagıtBosaltButton.Text" xml:space="preserve">
+    <value>BOŞALT</value>
+  </data>
+  <data name="&gt;&gt;puanLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="organikListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 90</value>
+  </data>
+  <data name="camListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;puanLabel.Name" xml:space="preserve">
+    <value>puanLabel</value>
+  </data>
+  <data name="camBosaltButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 26</value>
+  </data>
+  <data name="&gt;&gt;metalProgress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;puanTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;organikBosaltButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="puanLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="kagitProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;resimPictureBox.Name" xml:space="preserve">
+    <value>resimPictureBox</value>
+  </data>
+  <data name="&gt;&gt;organikListBox.Name" xml:space="preserve">
+    <value>organikListBox</value>
+  </data>
+  <data name="yeniOyunButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 68</value>
+  </data>
+  <data name="picturePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 237</value>
+  </data>
+  <data name="kagıtListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 160</value>
+  </data>
+  <data name="&gt;&gt;camBosaltButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metalBosaltButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cıkısButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;kagıtListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kagıtBosaltButton.Name" xml:space="preserve">
+    <value>kagıtBosaltButton</value>
+  </data>
+  <data name="&gt;&gt;yeniOyunButton.Name" xml:space="preserve">
+    <value>yeniOyunButton</value>
+  </data>
+  <data name="organikBosaltButton.Text" xml:space="preserve">
+    <value>BOŞALT</value>
+  </data>
+  <data name="&gt;&gt;resimPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sureLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="organikAtikButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;organikProgress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="resimPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cıkısButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 286</value>
+  </data>
+  <data name="&gt;&gt;metalBosaltButton.Name" xml:space="preserve">
+    <value>metalBosaltButton</value>
+  </data>
+  <data name="metalPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 264</value>
+  </data>
+  <data name="&gt;&gt;camListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;organiPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;camButton.Parent" xml:space="preserve">
+    <value>camPanel</value>
+  </data>
+  <data name="organikProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="camProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="organikProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 256</value>
+  </data>
+  <data name="sureTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 138</value>
+  </data>
+  <data name="&gt;&gt;organikProgress.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="organikBosaltButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 285</value>
+  </data>
+  <data name="camProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;metalButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="organikAtikButton.Text" xml:space="preserve">
+    <value>ORGANİK ATIK</value>
+  </data>
+  <data name="yeniOyunButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 350</value>
+  </data>
+  <data name="&gt;&gt;organiPanel.Name" xml:space="preserve">
+    <value>organiPanel</value>
+  </data>
+  <data name="picturePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="&gt;&gt;metalPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;organikBosaltButton.Name" xml:space="preserve">
+    <value>organikBosaltButton</value>
+  </data>
+  <data name="&gt;&gt;organikListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;camButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sureTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;camProgress.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="camButton.Text" xml:space="preserve">
+    <value>CAM</value>
+  </data>
+  <data name="&gt;&gt;cıkısButton.Name" xml:space="preserve">
+    <value>cıkısButton</value>
+  </data>
+  <data name="puanTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cıkısButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="sureLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="puanLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 196</value>
+  </data>
+  <data name="&gt;&gt;puanTextBox.Name" xml:space="preserve">
+    <value>puanTextBox</value>
+  </data>
+  <data name="&gt;&gt;kagıtBosaltButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kagıtPanel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="kagitProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 256</value>
+  </data>
+  <data name="metalProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 542</value>
+  </data>
+  <data name="organiPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 59</value>
+  </data>
+  <data name="organiPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;organikListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;metalListBox.Name" xml:space="preserve">
+    <value>metalListBox</value>
+  </data>
+  <data name="metalButton.Text" xml:space="preserve">
+    <value>METAL</value>
+  </data>
+  <data name="metalBosaltButton.Text" xml:space="preserve">
+    <value>BOŞALT</value>
+  </data>
+  <data name="sureLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 101</value>
+  </data>
+  <data name="&gt;&gt;camProgress.Name" xml:space="preserve">
+    <value>camProgress</value>
+  </data>
+  <data name="&gt;&gt;organiPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="camBosaltButton.Text" xml:space="preserve">
+    <value>BOŞALT</value>
+  </data>
+  <data name="&gt;&gt;kagitProgress.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="sureTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;resimPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="organikBosaltButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="metalPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 345</value>
+  </data>
+  <data name="&gt;&gt;camBosaltButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metalButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;camProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;organikAtikButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cıkısButton.Text" xml:space="preserve">
+    <value>ÇIKIŞ</value>
+  </data>
+  <data name="kagıtBosaltButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="organiPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 267</value>
+  </data>
+  <data name="&gt;&gt;kagitProgress.Name" xml:space="preserve">
+    <value>kagitProgress</value>
+  </data>
+  <data name="kagıtButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 347</value>
+  </data>
+  <data name="&gt;&gt;organikBosaltButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;organikProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sureTextBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="puanLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="kagıtListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;kagıtListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camBosaltButton.Name" xml:space="preserve">
+    <value>camBosaltButton</value>
+  </data>
+  <data name="kagıtPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 267</value>
+  </data>
+  <data name="&gt;&gt;camProgress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camButton.Name" xml:space="preserve">
+    <value>camButton</value>
+  </data>
+  <data name="sureTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;kagitProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metalListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 376</value>
+  </data>
+  <data name="&gt;&gt;cıkısButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 30</value>
+  </data>
+  <data name="&gt;&gt;organikProgress.Name" xml:space="preserve">
+    <value>organikProgress</value>
+  </data>
+  <data name="sureLabel.Text" xml:space="preserve">
+    <value>SÜRE</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="sureLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;resimPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ATIK KUTULARI</value>
+  </data>
+  <data name="puanLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metalPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;organikListBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;kagıtPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="camPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="resimPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;metalButton.Parent" xml:space="preserve">
+    <value>metalPanel</value>
+  </data>
+  <data name="organikBosaltButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="&gt;&gt;kagıtButton.Name" xml:space="preserve">
+    <value>kagıtButton</value>
+  </data>
+  <data name="sureLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;sureLabel.Name" xml:space="preserve">
+    <value>sureLabel</value>
+  </data>
+  <data name="camButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;yeniOyunButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>651, 663</value>
+  </data>
+  <data name="&gt;&gt;camPanel.Name" xml:space="preserve">
+    <value>camPanel</value>
+  </data>
+  <data name="&gt;&gt;metalBosaltButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;organikAtikButton.Parent" xml:space="preserve">
+    <value>organiPanel</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;organiPanel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="puanTextBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="kagıtButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="&gt;&gt;metalListBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cıkısButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 43</value>
+  </data>
+  <data name="camButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 4</value>
+  </data>
+  <data name="&gt;&gt;metalPanel.Name" xml:space="preserve">
+    <value>metalPanel</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 262</value>
+  </data>
+  <data name="&gt;&gt;organikBosaltButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="camListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 160</value>
+  </data>
+  <data name="metalBosaltButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="&gt;&gt;sureLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sureTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="camPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -2</value>
+  </data>
+  <data name="&gt;&gt;puanTextBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;yeniOyunButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="yeniOyunButton.Text" xml:space="preserve">
+    <value>YENİ OYUN</value>
+  </data>
+  <data name="organikAtikButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="organikProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="metalPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;kagıtButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="camButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metalProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="metalListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="camPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 269</value>
+  </data>
+  <data name="puanTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 47</value>
+  </data>
+  <data name="metalButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>tr-TR</value>
+  </metadata>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

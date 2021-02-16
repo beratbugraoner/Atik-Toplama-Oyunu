@@ -1,0 +1,13 @@
+C:\Users\computer\source\repos\proje1\proje1\bin\Debug\proje1.exe.config
+C:\Users\computer\source\repos\proje1\proje1\bin\Debug\proje1.exe
+C:\Users\computer\source\repos\proje1\proje1\bin\Debug\proje1.pdb
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.csprojAssemblyReference.cache
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.Form1.resources
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.Properties.Resources.resources
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.csproj.GenerateResource.cache
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.csproj.CoreCompileInputs.cache
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.exe
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.pdb
+C:\Users\computer\source\repos\proje1\proje1\bin\Debug\tr-TR\proje1.resources.dll
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\proje1.Form1.tr-TR.resources
+C:\Users\computer\source\repos\proje1\proje1\obj\Debug\tr-TR\proje1.resources.dll
